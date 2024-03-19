@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/</link>
+    <description>Recent content in Tags on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>孩子</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E5%AD%A9%E5%AD%90/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E5%AD%A9%E5%AD%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>https://shilaAtGit.github.io.git/tags/hugo/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>网络技术</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>github</title>
+      <link>https://shilaAtGit.github.io.git/tags/github/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>macbook</title>
+      <link>https://shilaAtGit.github.io.git/tags/macbook/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/macbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>外部</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E5%A4%96%E9%83%A8/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E5%A4%96%E9%83%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>采购招标</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E9%87%87%E8%B4%AD%E6%8B%9B%E6%A0%87/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E9%87%87%E8%B4%AD%E6%8B%9B%E6%A0%87/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>game</title>
+      <link>https://shilaAtGit.github.io.git/tags/game/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>gitc</title>
+      <link>https://shilaAtGit.github.io.git/tags/gitc/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/gitc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>操作系统</title>
+      <link>https://shilaAtGit.github.io.git/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>java</title>
+      <link>https://shilaAtGit.github.io.git/tags/java/</link>
+      <pubDate>Sat, 15 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>web servers</title>
+      <link>https://shilaAtGit.github.io.git/tags/web-servers/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/tags/web-servers/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

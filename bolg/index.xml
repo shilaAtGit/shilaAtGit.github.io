@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bolgs on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/bolg/</link>
+    <description>Recent content in Bolgs on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/bolg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习theme-mainroad的记录</title>
+      <link>https://shilaAtGit.github.io.git/bolg/studytheme/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/studytheme/</guid>
+      <description>记录一下学习theme的过程，先学习的是自己使用的mainroad。&#xA;mainroad是hugo的众多theme中的一个，比较适合简单使用，写自己的blog。&#xA;首先，先贴一下hugo的主页：&#xA;hugo主页&#xA;从hugo主页的菜单themes主页进入，可以选择自己喜欢的theme，每个theme都有详细的自己的下载、使用教程。使用教程的主要内容为config和front matter。&#xA;其中，对于config的配置，新版本的hugo已经放到了hugo.toml中，不在放在config下，也可以自己新建config目录和config.toml文件存放，但是没啥必要。&#xA;theme主要的定制能力，都体现在front matter上。front matter的定义，是一个theme的样式。比如在我的所有md文档中，都要复制mainroad提供的frontmatter到文件头。&#xA;front matter的内容提供了定制，可以自己根据需求进行调整。比如页面包涵那些模块，模块的摆放位置等。</description>
+    </item>
+  </channel>
+</rss>
