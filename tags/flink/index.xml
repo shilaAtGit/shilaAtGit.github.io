@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flink on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/flink/</link>
+    <description>Recent content in flink on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/flink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>flink的使用方法</title>
+      <link>https://shilaAtGit.github.io.git/works/workflow/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/workflow/</guid>
+      <description>记录在网上学到的flink的比较好的应用 flink实时计算平台整体架构 1、flink可以用来处理多种实时数据，最典型的就是业务数据分析、用户行为日志分析、实时位置相关的计算。&#xA;业务数据分析：金额/笔数的实时统计计算、业务指标完成情况、&#xA;用户行为分析：根据日志分析风险、黄牛侦测&#xA;位置计算：实时跟踪位置推荐商圈、&#xA;2、不要过于依赖flink自身的数据采集功能，应该使用kafka、pulsar等消息中间件来实现复杂的数据采集、数据输出。&#xA;3、可视化平台，在风险侦测、业务指标警示等方面，是非常重要的。&#xA;4、规则计算的配置化+数据实时产品的流式输出的配置化是业务高效上线的关键。&#xA;数据处理流程 1、要通过Metrics等监控工具，来管理数据源的延迟情况。&#xA;2、实时计算过程中，要使用到大量的参数，比如特征匹配值、过滤规则，这些参数很多还是在可视化平台实时配置的，需要考虑存储方案。&#xA;3、实时产品中，要细分出内部实时产品和外部实时产品，典型外部场景是营销触达。&#xA;4、flink state是很重要的工具。&#xA;运维 1、海量的数据源，要有延迟监控。&#xA;2、内外部用户的权限管控，要单独实现。实现的内容要包含：数据可见性管控、脱敏诉求、加密需求。&#xA;3、新增或者增强的flink作业的安全、性能管理。&#xA;4、失败管理和应急方案，checkpoint恢复的及时性和安全性。</description>
+    </item>
+    <item>
+      <title>流式计算</title>
+      <link>https://shilaAtGit.github.io.git/works/flink/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/flink/</guid>
+      <description>流式计算的基本概念和基本常识 基本概念 流式计算&#xA;一种实时计算。一个场景就是计算机系统实时的产生不断增加的交易数据，这些交易数据需要每增加一笔就进行一次计算——比如求平均金额——并展示给用户。&#xA;流式计算从交易处理系统不断的获得交易数据，每获得一条就进行一次计算并记录计算结果，这就是流式计算的初期目的。&#xA;不同于批量运算，流式计算的实时性要高很多。&#xA;flink&#xA;flink是一个流式计算的容器/框架，独立部署运行，可以类比为apache或者jboss，应用可以发布在flink集群中，完成业务数据处理诉求。&#xA;spark&#xA;spark是一个分布式计算框架，基于分布式数据存储的分布式计算模型。&#xA;kafka&#xA;kafka是一个消息中间件。意思就是支持拉取（订阅）或者接收（被推送）上游数据到kafka集群，然后被拉取（被订阅）或者推送数据到下游的系统。&#xA;pulsar pulsar就是一个先进版的kafka，定位和功能都类似。在无需深度使用的场景下了解到这个地步就行了。&#xA;基本常识 flink&#xA;flink逻辑上简单来说包含三个部分，数据获取、数据处理、数据输出。&#xA;一般来说，flink的数据获取和数据输出都是标准模式的，比如从mysql获取数据、从kafka获取/输出数据，用的都是flink开发者提供的简朴的配置化的clint服务即可实现。flink也不支持在这2个部分进行个性化开发。&#xA;flink的数据处理是高度个性化的。一般是由业务诉求方开发个性化的代码来实现数据处理。&#xA;kafka&#xA;kafka的一个价值在于简便的实现一些异步的操作，即上游把可以异步处理的数据通过标准方法（kafka标准）丢给kafka，下游系统去订阅并处理。</description>
+    </item>
+  </channel>
+</rss>

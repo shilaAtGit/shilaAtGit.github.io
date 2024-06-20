@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程序员 on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/</link>
+    <description>Recent content in 程序员 on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 15 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一个hugo blog</title>
+      <link>https://shilaAtGit.github.io.git/posts/first/</link>
+      <pubDate>Sat, 15 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/posts/first/</guid>
+      <description>学习使用新技术重新搭建个人blog，迁移存量内容到新技术下。</description>
+    </item>
+  </channel>
+</rss>

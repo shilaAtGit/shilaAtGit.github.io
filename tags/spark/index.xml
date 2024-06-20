@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spark on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/spark/</link>
+    <description>Recent content in spark on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/spark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>流式计算</title>
+      <link>https://shilaAtGit.github.io.git/works/flink/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/flink/</guid>
+      <description>流式计算的基本概念和基本常识 基本概念 流式计算&#xA;一种实时计算。一个场景就是计算机系统实时的产生不断增加的交易数据，这些交易数据需要每增加一笔就进行一次计算——比如求平均金额——并展示给用户。&#xA;流式计算从交易处理系统不断的获得交易数据，每获得一条就进行一次计算并记录计算结果，这就是流式计算的初期目的。&#xA;不同于批量运算，流式计算的实时性要高很多。&#xA;flink&#xA;flink是一个流式计算的容器/框架，独立部署运行，可以类比为apache或者jboss，应用可以发布在flink集群中，完成业务数据处理诉求。&#xA;spark&#xA;spark是一个分布式计算框架，基于分布式数据存储的分布式计算模型。&#xA;kafka&#xA;kafka是一个消息中间件。意思就是支持拉取（订阅）或者接收（被推送）上游数据到kafka集群，然后被拉取（被订阅）或者推送数据到下游的系统。&#xA;pulsar pulsar就是一个先进版的kafka，定位和功能都类似。在无需深度使用的场景下了解到这个地步就行了。&#xA;基本常识 flink&#xA;flink逻辑上简单来说包含三个部分，数据获取、数据处理、数据输出。&#xA;一般来说，flink的数据获取和数据输出都是标准模式的，比如从mysql获取数据、从kafka获取/输出数据，用的都是flink开发者提供的简朴的配置化的clint服务即可实现。flink也不支持在这2个部分进行个性化开发。&#xA;flink的数据处理是高度个性化的。一般是由业务诉求方开发个性化的代码来实现数据处理。&#xA;kafka&#xA;kafka的一个价值在于简便的实现一些异步的操作，即上游把可以异步处理的数据通过标准方法（kafka标准）丢给kafka，下游系统去订阅并处理。</description>
+    </item>
+  </channel>
+</rss>
