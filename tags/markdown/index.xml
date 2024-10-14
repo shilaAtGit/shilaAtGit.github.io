@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/markdown/</link>
+    <description>Recent content in markdown on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习使用MarkDown笔记</title>
+      <link>https://shilaAtGit.github.io.git/posts/studymarkdown/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/posts/studymarkdown/</guid>
+      <description>写一篇笔记，记录markdown的编写办法，以便遗忘时复阅。注：文中资源、命令有时限性，需要依时更新之。&#xA;开篇语&#xA;markdwon是一种暂时流行的文本编辑方式，本文也是用这个格式进行编写的。&#xA;优点是语法简单，可以比较容易的翻译成为HTML文档进行网页展示，所以用来写个人的blog非常方便。&#xA;hugo也是用md文档来生成网页的。&#xA;图片语法&#xA;基础的图片嵌入：&#xA;使用Shortcodes，可以设置图片的一些属性&#xA;链接语法&#xA;参考shortcodes 。 常用参考:&#xA;使用 Markdown 制作 ppt&#xA;使用mermaid为Markdown增加表格&#xA;粗体&#xA;通过用**包含，进行粗体。&#xA;斜体&#xA;通过用*包含，进行斜体。&#xA;标题&#xA;一级标题用#开头。&#xA;二级标题用##开头，二级标题会生成目录，一级不会。&#xA;代码块&#xA;分别用&amp;quot;```&amp;ldquo;首位包含的会展示位代码块。&#xA;如何使用图表&#xA;图表的使用必须使用插件，通过md的插件实现各种功能。我使用mermaid来实现饼图的展示。&#xA;1、在项目的layouts路径下新建/partials/mermaid.html文件，内容如下：&#xA;{{ if .Params.mermaid }} &amp;lt;script src=&amp;#34;/js/mermaid.min.js&amp;#34; integrity=&amp;#34;sha256-KqisLh8jVMBRjpNkOhH5W9VWs+F6x6vQksLqxs7+x9A=&amp;#34; crossorigin=&amp;#34;anonymous&amp;#34; &amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt; // Replace mermaid pre.code to div Array.from(document.getElementsByClassName(&amp;#34;language-mermaid&amp;#34;)).forEach( (el) =&amp;gt; { el.parentElement.outerHTML = `&amp;lt;div class=&amp;#34;mermaid&amp;#34;&amp;gt;${el.innerText}&amp;lt;/div&amp;gt;`; } ); &amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; /* Set svg to center */ .mermaid svg { display: block; margin: auto; } &amp;lt;/style&amp;gt; {{ end }} 2、在同级目录下放入mermaid.</description>
+    </item>
+  </channel>
+</rss>
