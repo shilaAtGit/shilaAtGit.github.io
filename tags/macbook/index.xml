@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macbook on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/macbook/</link>
+    <description>Recent content in macbook on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习使用hugo笔记</title>
+      <link>https://shilaAtGit.github.io.git/posts/studyhugo/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/posts/studyhugo/</guid>
+      <description>写一篇笔记，记录hugo的学习过程，以便遗忘时复阅。注：文中资源、命令有时限性，需要依时更新之。&#xA;开篇语&#xA;hugo是基于go语言的快速搭建网站的框架，然而实现目标——搭建网站——却不需要有任何go语言的学习过程。&#xA;需要的能力是：下载能力，命令行输入命令能力，阅读Doc能力，这些基础能力具备后，只要会写MD格式的网站内容文件就可以了。&#xA;因此，hugo是搭建个人网站最优的方案，因为即使是code大神——为了记录信息才是核心目标，也完全没必要自己去费时建设。&#xA;hugo主页：hugo&#xA;准备工作：&#xA;安装git（本来就有）&#xA;安装brew（很久以前的工具，无法升级，为了修复它话费了大量的时间）&#xA;安装hugo（有了brew一切都很容易）&#xA;第一步：修复homebrew&#xA;1、输入brew update报错，尝试各种百度方法，最后卡在提示ruby版本与操作系统不符合，表现为更新ruby失败，手动更新后提示操作系统版本旧。因为我无法升级操作系统，所以困住于此。&#xA;2、使用如下方法，修复&#xA;命令： /bin/zsh -c “$(-fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”&#xA;命令会引导命令终端进入交互模式，都选1-中科大镜像，即可。 完成brew的完整安装后，输入brew update进行升级。&#xA;第二步：安装go&#xA;go有自己的可视化安装包，下载并安装即可。&#xA;第三步：安装hugo&#xA;命令：brew install hugo&#xA;参考安装hugo&#xA;第四步：生成项目并启动服务&#xA;hugo new site quickstart //建立一个叫做quickstart的项目，可以用任意名称&#xA;cd quickstart //进入项目根目录&#xA;git init //初始化git&#xA;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke //下载ananke theme&#xA;echo &amp;ldquo;theme = &amp;lsquo;ananke&amp;rsquo;&amp;rdquo; &amp;raquo; hugo.toml //启用theme&#xA;hugo server //启动服务，日志输出中会显示服务地址http://localhost:1313 操作非常简单，至此就完成了整个网站的建设。具体可以参考官网搭建hogo项目&#xA;第五步：更换喜欢的theme&#xA;hugo提供很多的theme，可以根据目标选择。参考themes&#xA;1、下载theme，并放到项目的themes目录下，参考语句：git clone https://github.com/vimux/mainroad.git themes/mainroad&#xA;2、更新hugo.toml，在项目根目录找到 theme = &amp;lsquo;ananke&amp;rsquo;，修改为theme = &amp;lsquo;mainroad&amp;rsquo;</description>
+    </item>
+  </channel>
+</rss>

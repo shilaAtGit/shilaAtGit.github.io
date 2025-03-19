@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/github/</link>
+    <description>Recent content in github on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用git搭建免费个人主页</title>
+      <link>https://shilaAtGit.github.io.git/usegitbuildpages/usegitbuildpersonalpage/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/usegitbuildpages/usegitbuildpersonalpage/</guid>
+      <description>作为一个程序员，当然要有自己的主页，使用hugo是非常方便的方式.&#xA;具体如何进行hugo项目搭建，参考我另外一篇文章。学习使用hugo笔记&#xA;完成了个人主页的搭建，就需要有一个互联网地址，能够实现public的访问，比如允许朋友查看，分享什么。本文介绍如何使用github来搭建一个免费的个人主页。&#xA;开篇语&#xA;github是不太稳定的，有的时候无法访问，如果个人愿意出钱，可以选择其他的云服务，比如阿里云、腾讯云、华为云等，这些付费的专业云可以获得比较好的用户体验。&#xA;本文主导的是免费的策略，顺带熟悉github的发布。&#xA;github之前被墙过，但是现在基本是允许访问的，一些教你翻墙、hosts设置代理等访问git的方式，可以先放弃了。如果后期github再次被墙了，需要寻找相应的访问办法。&#xA;申请github账号：&#xA;参考申请github账户&#xA;第二步：配置本地git&#xA;参考配置本地的github的SSH&#xA;第三步：推送本地代码到github&#xA;1、要根据发布地址，生成hugo最终发布的代码。使用hugo命令可以生成发布代码，并放入项目下的public目录。这里要指定发布地址，否则后续修改比较麻烦。&#xA;在项目根目录下执行命令： hugo &amp;ndash;baseURL=https://shilaAtGit.github.io.git&#xA;URL=后面的内容，就是之前在git账户申请过程中，新建的仓库的https地址，根据之前新建的规则，地址为：https://&amp;lt;你的github账号&amp;gt;.github.io&#xA;命令执行后，会在项目根目录下生成一个public目录&#xA;1.1、这里要格外注意： 把自己不想发布的文件夹先删除再执行上面的生成过程（生成并推送之后可以再从垃圾站里找回来）&#xA;2、进入public目录：cd public&#xA;3、逐一执行以下命令：&#xA;git init //每次修改了代码重新生成public后，都要从这里开始执行&#xA;git remote add origin git@github.com:shilaAtGit/shilaAtGit.github.io.git&#xA;git add .&#xA;git commit -m &amp;ldquo;提交说明&amp;rdquo;&#xA;git push -f origin main //也许需要加 -f，因为是个人开发，所以直接强制把本地的代码更新到远端。 很多教程在这里push的是master，也会教你如何从main改为master，但是去掉master是官方行为，用main挺好不影响使用。&#xA;这里也许会网络错误，毕竟git经常被墙，重试一下也许就好了。&#xA;4、这样就完成了push到远端github，需要稍微等一会才能访问。网络墙也许会给你带来困惑，比如我的网络可以访问github的管理页面，但是无法访问我自己的主页，就很奇怪。&#xA;提供一些参考的git语句：&#xA;git pull origin main&#xA;git branch -l&#xA;git remote add origin git@github.com:shilaAtGit/shilaAtGit.github.io.git&#xA;第四步：发布和重新发布&#xA;很多时候会发现自己的发布并没有成功，那就需要重新发布，在github管理界面操作即可。&#xA;1、登陆github账户，进入项目&#xA;2、选择actions&#xA;3、选择一个workflow进入&#xA;4、点击reRun&#xA;5、观察如下，就是发布成功了&#xA;终章，搞定啦&#xA;至此，一个免费的基于github服务的个人主页就完成了，剩下的就是根据hugo来进行MD格式内容的编写了。</description>
+    </item>
+    <item>
+      <title>申请github账户</title>
+      <link>https://shilaAtGit.github.io.git/usegitbuildpages/applygithub/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/usegitbuildpages/applygithub/</guid>
+      <description>介绍一下如何实现github的账户申请，以及在github上建立第一个仓库。 这个仓库后续要用来发布个人主页，个人主页的搭建可以参考我另外一篇文章。学习使用hugo笔记。&#xA;开篇语&#xA;github是不太稳定的，有的时候无法访问，如果个人愿意出钱，可以选择其他的云服务，比如阿里云、腾讯云、华为云等，这些付费的专业云可以获得比较好的用户体验。&#xA;本文主导的是免费的策略，顺带熟悉github的发布。&#xA;github之前被墙过，但是现在基本是允许访问的，一些教你翻墙、hosts设置代理等访问git的方式，可以先放弃了。如果后期github再次被墙了，需要寻找相应的访问办法。&#xA;申请github账号：&#xA;如果有账号直接登录就好了。&#xA;gitlab的平台界面和操作路径会更新，所以有的时候需要自己找一下操作位置。&#xA;访问gitlab，点击右上角的sign up。&#xA;然后填写注册信息就好了，注册信息很简单，包括email，用户名，口令。后续页面会收集其他信息，以及推荐选择付费版本，记住选择免费即可。&#xA;第一步：新建github仓库&#xA;1、登陆在gitlab，点击左侧的new按键，新建一个repository。&#xA;2、填写新的仓库的信息，注意不要修改任何信息，需要填写的只有Repository Name.&#xA;Name不能乱写，必须是.github.io，比如我的github的名字叫zhangsan123，Repository Name就是zhangsan123.github.io。&#xA;另外，不要因为前面就是owner，就不写owner了&#xA;就此，github仓库就创建好了，后面只需要将本地代码提交到这个仓库就可以了。</description>
+    </item>
+    <item>
+      <title>配置本地的github的SSH</title>
+      <link>https://shilaAtGit.github.io.git/usegitbuildpages/gensshkey/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/usegitbuildpages/gensshkey/</guid>
+      <description>简单讲解一下如何生成本地的ssh key，并配置到github账户，以实现本地代码推送到远端。&#xA;不配置这一步，是无法通过命令行推送代码的。&#xA;配置本地git&#xA;配置本地的git环境，才能将本地代码提交到github，这里讲如何通过命令行进行提交的准备工作。&#xA;一、生成ssh key&#xA;git提交，需要与远程仓库通过ssh安全通道进行提交，所以要先生成本地的ssh key，并且配置到服务器，才可以实现提交。&#xA;1、生成本地ssh key。 这里“你的邮箱”，指的是你注册github时候使用的邮箱&#xA;ssh-keygen -t rsa -C &amp;ldquo;你的邮箱&amp;rdquo;&#xA;生成过程中，会提示输入密码等一系列操作，全部用回车即可。&#xA;2、执行 ssh -v git@github.com&#xA;3、执行 ssh-agent -s&#xA;4、执行 ssh-add ~/.ssh/id_rsa&#xA;这个时候出现的Identity added&amp;hellip;这里的路径就是证书文件路径&#xA;5、打开证书文件路径，找到id_rsa.pub文件，用文本阅读器打开，看到ssh-rsa开头的一段base64公钥，全文复制 。&#xA;二、配置ssh key&#xA;1、浏览器登录到你的github账号，点击右侧头像，选择settings&#xA;2、在settings中选择SSH and GPG keys&#xA;3、选择New SSH key&#xA;4、把刚才复制的公钥复制到key的文本框中，title可以随便起一个，完成后点击Add SSH key&#xA;至此，就完成了ssh key的配置，可以验证一下，在命令行输入： ssh -T git@github.com</description>
+    </item>
+    <item>
+      <title>如何设置github代理地址</title>
+      <link>https://shilaAtGit.github.io.git/sethosts/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/sethosts/</guid>
+      <description>作为国人在研发中一个痛点就是无法自由使用很多全球资源，一些公司提供相应的解决方案，但是一些公司因为性质问题不能提供，只能由程序员自行解决。&#xA;如何访问guihub就是其中一个。方法目前比较靠谱的就是如下，以本人mac系统为例进行阐述：&#xA;1、首先，即使使用代理，github也是不太稳定的，这个只能忍了。&#xA;2、可用的github代理经常会发生变化，所以及时更新很重要。&#xA;3、访问https://raw.hellogithub.com/hosts，用浏览器打开此地址即可下载文件，用本地文本工具打开，即可看到最新的github相关的代理地址。&#xA;4、更新本地的hosts文件，mac的文件位置在：/etc/hosts.&#xA;5、修改hosts文件需要管理员口令，有的工具不支持输入管理员口令进行修改，使用sublimeText工具可以编辑。&#xA;6、使hosts的修改生效：sudo killall -HUP mDNSResponder</description>
+    </item>
+  </channel>
+</rss>

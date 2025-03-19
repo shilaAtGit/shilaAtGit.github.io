@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/works/</link>
+    <description>Recent content in Works on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/works/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《数字化转型架构》阅读笔记</title>
+      <link>https://shilaAtGit.github.io.git/works/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/%E6%95%B0%E5%AD%97%E5%8C%96%E8%BD%AC%E5%9E%8B/</guid>
+      <description>公司以数字化转型为核心动力，作为唯一的技术部门，要把数字化转型的工作研究一下。&#xA;学习书籍，记录心得。&#xA;数字化转型的背景 线上线下的边界越来越模糊；人群、产品、场景在数字化的影响下越来越同质化。&#xA;市场的竞争，不再以产品质量竞争为中心，而转移为客户服务和客户触达的竞争。产品已经大差不差了。&#xA;看似技术问题的数字化转型，其实是企业架构转型的延伸。只是因为技术的壁垒，使得只能由技术人员来逆向主导。&#xA;数字化转型的目标 1、以客户服务为中心，以触达为途径，而不再是以产品为核心了。所以不转型的公司未来只能死。&#xA;2、大数据分析反哺业务规则制定，强化以客户服务为中心；智能化改进生产流程，降低触达成本；数字化和云，让研发跟上市场。&#xA;3、架构转型是数字化转型的抓手。企业架构先改，然后是技术架构按照企业架构进行改造。&#xA;4、架构改了，才可以着手进行数据转型和it技术转型。&#xA;企业架构设计 1、企业架构的本质，是企业地图，描述了组织的结构和工作方式，指导了业务和技术变更的路线规划。&#xA;2、企业架构框架，是如何描述企业架构的一种方法论，是一种模型，照着这个模型，把模糊的企业状况，分解和梳理为企业架构。&#xA;3、企业架构内容包括：业务架构、应用架构、数据架构、技术架构。&#xA;4、企业架构方法论，包括4个部分：企业战略计划、企业架构规划、项目实施管理、架构运营治理。方法论为企业架构的内容增加了战略指引，项目和运营。&#xA;5、企业战略分为：业务战略和技术战略。业务战略通过业务架构来落实，技术战略通过应用架构、数据架构、技术架构来落实。&#xA;6、企业架构的现状和演进方向，是企业当前战略转化成具体项目的重要依据。&#xA;7、业务架构阐述企业的业务能力、业务流程、业务逻辑；应用架构阐述领域分析、功能识别、服务分析；数据架构关注数据模型和数据分布；技术架构描述技术选型和技术体系（研发体系和运维体系）。&#xA;8、业务能力和业务流程，加上数据价值，是企业的核心资产。&#xA;9、组织适配改造，是数字化转型坚持到成功的护卫。&#xA;业务架构设计 1、业务架构的关键要素：商业模式、价值链、业务能力、业务流程、业务平台、组织架构。&#xA;2、商业模式核心组成：创造价值、传递价值、获得价值。&#xA;3、价值链分析是获得企业盈利方向和成本部门的方法。&#xA;4、业务能力的分析，自上而下需要强力领导支持，否则容易有部门墙；自下而上耗时多，而且容易自吹自擂；上下双向管理成本高；业务能力要关注对错，而不是关注谁做。&#xA;5、把业务能力组合起来，实现场景业务目标，就是业务流程；把业务流程拆分，形成公共能力和专属能力，就是业务能力；业务能力和业务流程共同决定了组织架构。&#xA;6、业务架构设计的方法很经典，看书。&#xA;应用架构设计 1、应用架构的核心是建模，才能把业务层面的能力和流程，转化为系统层面的服务与应用。&#xA;2、应用架构的发展顺序：集中式架构、分布式架构、事件架构、微服务、云原生。&#xA;3、应用架构设计的核心方法论：领域驱动设计。一般划分为：核心域、通用域、支撑域。&#xA;4、领域驱动设计的几个价值观：抽象、无状态、自治、幂等、最终一致性、&#xA;5、应用架构与产品，以及解决方案是完全不同的东西，后者是商业的内容，采用商业活动（如营销）来展开。但是应用架构为他们提供支撑能力，并被其影响而变更。&#xA;数据架构设计 1、数据架构设计的核心是数据模型、数据分布和数据治理（标准化）。&#xA;2、数据模型的来源是领域设计，领域模型和相应的服务抽象形成数据模型。&#xA;3、最终一致性是数据分布的重要标准。&#xA;4、多种类型数据库并用的业务诉求，促进了数据的分类和分层，进一步推动了数据API的发展。&#xA;技术架构治理 1、技术架构的表现形式是架构制图，是IT系统的技术标准、原则和最佳实践。&#xA;2、技术架构的主要关注点：流量调度、服务治理、监控体系、消息队列、微服务框架。&#xA;3、技术架构从公司角度是业务架构的支撑，重点是业务功能和业务流程；从技术部门角度，非功能性指标才是价值所在。&#xA;云原生架构 1、云原生的终极目标其实是函数托管，由云提供托管环境，函数/代码由开发人员开发后提交到云，由云负责运行和管理。实现方式可以参考flink的算子模式。&#xA;2、上云（不一定是云原生了）后的应用，交付从代码包变为镜像。以此为标志，云原生的改造，背后是软件研发模式和企业IT架构的变革。&#xA;3、云上常用的基础服务：日志分析、流量管理、健康检查、优雅关机、自我修复、弹性伸缩、API模式的存储、密钥管理、状态统一管理、参数统一管理、持续集成、持续部署、&#xA;4、云的优势：可观测性、可编排性、环境稳定性（容器模版都一样）、&#xA;云原生实践 1、一个重要理念：一切都是资源。&#xA;2、资源的编排：事件、阶段、状态、钩子。</description>
+    </item>
+    <item>
+      <title>flink的使用方法</title>
+      <link>https://shilaAtGit.github.io.git/works/workflow/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/workflow/</guid>
+      <description>记录在网上学到的flink的比较好的应用 flink实时计算平台整体架构 1、flink可以用来处理多种实时数据，最典型的就是业务数据分析、用户行为日志分析、实时位置相关的计算。&#xA;业务数据分析：金额/笔数的实时统计计算、业务指标完成情况、&#xA;用户行为分析：根据日志分析风险、黄牛侦测&#xA;位置计算：实时跟踪位置推荐商圈、&#xA;2、不要过于依赖flink自身的数据采集功能，应该使用kafka、pulsar等消息中间件来实现复杂的数据采集、数据输出。&#xA;3、可视化平台，在风险侦测、业务指标警示等方面，是非常重要的。&#xA;4、规则计算的配置化+数据实时产品的流式输出的配置化是业务高效上线的关键。&#xA;数据处理流程 1、要通过Metrics等监控工具，来管理数据源的延迟情况。&#xA;2、实时计算过程中，要使用到大量的参数，比如特征匹配值、过滤规则，这些参数很多还是在可视化平台实时配置的，需要考虑存储方案。&#xA;3、实时产品中，要细分出内部实时产品和外部实时产品，典型外部场景是营销触达。&#xA;4、flink state是很重要的工具。&#xA;运维 1、海量的数据源，要有延迟监控。&#xA;2、内外部用户的权限管控，要单独实现。实现的内容要包含：数据可见性管控、脱敏诉求、加密需求。&#xA;3、新增或者增强的flink作业的安全、性能管理。&#xA;4、失败管理和应急方案，checkpoint恢复的及时性和安全性。</description>
+    </item>
+    <item>
+      <title>流式计算</title>
+      <link>https://shilaAtGit.github.io.git/works/flink/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/flink/</guid>
+      <description>流式计算的基本概念和基本常识 基本概念 流式计算&#xA;一种实时计算。一个场景就是计算机系统实时的产生不断增加的交易数据，这些交易数据需要每增加一笔就进行一次计算——比如求平均金额——并展示给用户。&#xA;流式计算从交易处理系统不断的获得交易数据，每获得一条就进行一次计算并记录计算结果，这就是流式计算的初期目的。&#xA;不同于批量运算，流式计算的实时性要高很多。&#xA;flink&#xA;flink是一个流式计算的容器/框架，独立部署运行，可以类比为apache或者jboss，应用可以发布在flink集群中，完成业务数据处理诉求。&#xA;spark&#xA;spark是一个分布式计算框架，基于分布式数据存储的分布式计算模型。&#xA;kafka&#xA;kafka是一个消息中间件。意思就是支持拉取（订阅）或者接收（被推送）上游数据到kafka集群，然后被拉取（被订阅）或者推送数据到下游的系统。&#xA;pulsar pulsar就是一个先进版的kafka，定位和功能都类似。在无需深度使用的场景下了解到这个地步就行了。&#xA;基本常识 flink&#xA;flink逻辑上简单来说包含三个部分，数据获取、数据处理、数据输出。&#xA;一般来说，flink的数据获取和数据输出都是标准模式的，比如从mysql获取数据、从kafka获取/输出数据，用的都是flink开发者提供的简朴的配置化的clint服务即可实现。flink也不支持在这2个部分进行个性化开发。&#xA;flink的数据处理是高度个性化的。一般是由业务诉求方开发个性化的代码来实现数据处理。&#xA;kafka&#xA;kafka的一个价值在于简便的实现一些异步的操作，即上游把可以异步处理的数据通过标准方法（kafka标准）丢给kafka，下游系统去订阅并处理。</description>
+    </item>
+    <item>
+      <title>mysql的距离函数使用</title>
+      <link>https://shilaAtGit.github.io.git/works/mysql-location/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/mysql-location/</guid>
+      <description>记录一下mysql的point类型数据以及ST_Distance_sphere函数 GIS简介 在很多购物场景，需要根据商店的坐标，计算与当前客户的距离，这是一种基本服务，通常被称为LBS（Location Based Service）。而LBS的核心技术实现，叫做GIS（Geographic Information System）。&#xA;技术实现上，通常使用支持此类运算的数据库如mongoDB，针对特殊的业务需求还需要有特殊的技术架构。&#xA;但是，实际开发中，使用mysql的应用系统较多，切换数据库代价很大。在服务要求不高的场景下，可以使用mysql的GIS特性来实现。&#xA;POINT 数据类型 mysql 可以定义POINT数据类型存储坐标信息。在定义表字段的时候直接使用即可。&#xA;CREATE TABLE test_table( id INT PRIMARY KEY AUTO_INCREMENT, point_type_colum POINT ); 空间索引 针对POINT类型的字段，要建立空间索引SPATIAL INDEX以提高查询速度。&#xA;ALTER TABLE test_table ADD SPATIAL INDEX (point_type_colum); 查询 查询的时候要用到ST_Distance_sphere函数&#xA;SELECT id,ST_Distance_sphere(point_type_colum,POINT(1,1))AS distanceDouble FROM test_table ORDER BY distanceDouble ASC LIMIT 0, 5; 写在最后 永远不要忘了通过explain来检查sql是否使用上了索引&#xA;还有一句 还有一种纯数学的距离计算方法，叫做geohash。&#xA;通过纯纯的数学计算，将二维的坐标信息，转化为二进式数字并进行base编码。通过比较数字不同的位数，确定距离的远近。&#xA;距离的计算可以通过编写数据库存储过程来实现，这里会用到GEOMFROMTEXT内置函数。&#xA;具体可以参考：&#xA;Geohash原理&#xA;存储过程计算Geohash</description>
+    </item>
+    <item>
+      <title>mysql的join如何优化性能</title>
+      <link>https://shilaAtGit.github.io.git/works/mysql-join/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/mysql-join/</guid>
+      <description>记录一下mysql的join是如何工作的以及性能调优的基本原理 join简介 联表查询经常要用到join，join是编程简化的需求，但是对于数据库的操作来说，增加了很多的复杂度和性能消耗，需要谨慎使用。&#xA;inner join：根据关联关系on，只返回on上匹配的数据&#xA;left join：根据条件查询主表（即左表）的全部符合条件数据数据，然后根据on的关系，补充符合on的附表（即右表）的数据，返回。&#xA;right join：与left join相反。&#xA;join 基本流程 现在有t1和t2两张表，idx是两张表的连接字段，并且都进行了索引。 执行的操作如下： 第一步：从表t1 读出一行数据ROW&#xA;第二步：从数据行中取出字段idx 到表t2 中去查找&#xA;第三步：在t2 中筛选出满足条件的行，跟t1 读出的数据ROW组装，构成结果集的一行&#xA;重复步骤一、二、三步，直到t1 全部查完&#xA;第一步优化 这里有第一个优化点，在第一步中，从表 t1读出一行数据ROW ，在MYSQL5.6的时候，启用了BKA（Batched Key Access）算法，批量数据查询，由原先的每次读取一行数据变为查询出一批数据，去被驱动表进行匹配。&#xA;这种优化的必须要解决的问题就是一次查出的数据放在哪里，MYSQL单独开辟了一个内存，你一定听过，就是join_buffer 。这样就能够，缓存住批量的数据，减少t1的读取频率。原先的JOIN流程就变成了 第二步优化 众所周知，在上述流程中，一般索引检索到匹配的值时候，会再去主键索引找到具体的数据，这个过程被我们称为回表。如果回表的扫描过程中，是顺序的，那么依据磁盘的读写特性，将大大的提高效率，这也是第二个优化点Multi-Range Read（MRR）。&#xA;MRR在一般索引匹配到主键索引的时候，单独开辟了一个空间read_rnd_buffer 对主键索引先进行排序，使得主键索引查找顺序的时候，是尽可能的顺序查找。MRR的加入使得原先的JOIN流程变成了： MRR的read_rnd_buffer的大小是由参数read_rnd_buffer_size 控制的&#xA;MRR默认是关闭的，MYSQL优化器更加倾向于不使用MRR，因此set optimizer_switch=&amp;ldquo;mrr_cost_based=off&amp;rdquo; 开启MRR&#xA;BKA算法的主要性能优化是基于MRR的，因此set optimizer_switch=&amp;lsquo;mrr=on,mrr_cost_based=off,batched_key_access=on&amp;rsquo;; 是开启BKA的正确姿势&#xA;MRR的优化前提是BKA，也就是说有多主键的范围查询&#xA;写在最后 以上的理论分析，需要经过具体的测试验证才可以使用，比如缓存大小具体设置的数值、是否涉及到冷表等。 理论分析可以直接使用，但是重点是思路，这个思路要善于灵活运用，比如是否通过redis等高速存储变相实现理论</description>
+    </item>
+    <item>
+      <title>专利评审经验积累</title>
+      <link>https://shilaAtGit.github.io.git/works/zhuanli/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/zhuanli/</guid>
+      <description>专利评审 公司的专利评审，我参加的以“研究院”的专利申请比较多。 总结一下专利评审中的知识点：&#xA;1、组合型专利：在将传统方案组合起来申请新的专利，最好在组合的方式方法上，体现专利点，不然较难申请专利。&#xA;2、专利评判标准：3.6分以下不建议申请专利，3.6-4.2建议C级专利，4.2以上建议B级专利&#xA;3、申请专利技巧：&#xA;（1）老瓶装新酒：用传统的技术应用在新领域、用新技术应用在传统领域，2个方向上的组合，都利于申请专利。尤其是一种全新的革命性的技术出现时，比如元宇宙，那么元宇宙中所有的日常活动，都涉及专利点。&#xA;（2）组合：把各种常见技术和方法组合起来，通过在组合方式上的创新，来申请专利。&#xA;（3）</description>
+    </item>
+    <item>
+      <title>采购专家评审</title>
+      <link>https://shilaAtGit.github.io.git/works/procurement/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/procurement/</guid>
+      <description>设备采购评审 作为单位业主代表参加了几次IT设备采购的招标会，总结一下IT采购类项目的招标评审经验：&#xA;1、评审以外部专家为主，作为采购单位，会派任一位业主代表也作为评审员，我几次参加都是以这个角色参加。&#xA;2、采购为委托外部专业单位招标采购，我司委托的是“上海国际招标”，www.shabidding.com，登陆网址可以完善个人专家信息，我的理解是可以作为独立人参与外部评审并赚取报酬。&#xA;3、作为业主代表，不需要太多发言，只要全程把握评审的专业程度和公平公正即可。&#xA;具体的评审技巧记录如下：&#xA;1、IT设备采购，价格是核心要素，得分主要点。因为IT设备往往会出现多个甚至全部竞标商都是二级代理商，提出的竞标产品都是同一设备生产商提供的情况，当发展这种情况，基本价格决定一切。&#xA;2、IT设备采购，基于理由1，使得服务水平成为考察的另一个主要点，服务水平基本都能承诺7·24·365，以及2小时到现场，但是根据招标单位的要求，会有差异。比如招标单位对投标商在招标单位所在地必须有办公地址，并予以文件证明会有要求，这种情况查看标书中相关的点对点应答内容就很重要。&#xA;3、同样着眼于服务水平，招标单位所在地的服务人员数量是衡量水平的标准，而人员数要看竞标商的服务人员数量，原厂人员数量毫无评审价值。&#xA;4、IT设备采购，竞标商的服务案例是考察的一个点。要注意同服务人员一样，需要看到竞标商的成功服务案例，原厂服务案例毫无评审价值。采购单位对于服务案例往往有详细的个性化要求，比如必须是同行头部单位的xx个服务案例，要必须仔细核对标书中的案例章节。&#xA;5、采购标准中的公司实力，看注册资金就足够了，根据注册资金，将竞标商分为几个档次，同档次给同分数，这个原则适合多个标准的打分。&#xA;总结： 一切按标准来，如果标准模糊，必须通过商讨，形成采购委员会达成一致的标准后，进行评判。坚决杜绝各判各的、评审员自己把握的采购流程。&#xA;软件采购评审 1、软件采购，投标的也都是代理商，国产软件采购很少见到。&#xA;2、代理商背后的软件提供商，一般都是同一家，因为在软件采购的时候往往目标很明确。&#xA;评审技巧：&#xA;1、关于软件的授权，为了避免纠纷，一般会要求代理商必须有软件的售卖授权，而且最正确的应该是原厂商对本次采购的授权，授权文件中标明了采购对象和本次合同标号。&#xA;2、对于国企、央企等公司，办公往往采用封闭网络环境，所以采购的软件，必须具备在封闭内网环境独立运行的能力，这个要求很多境外软件往往并不具备，要严格检查标书响应的阐述内容。&#xA;3、在国产化的道路上，使得很多公司要求软件必须能够在国产硬件上运行，这个要求很多境外软件往往并不具备，要严格检查标书响应的阐述内容。&#xA;4、在国产化的道路上，使得很多公司要求软件必须使用国密算法，这个要求很多境外软件往往并不具备，要严格检查标书响应的阐述内容。&#xA;5、软件代理商，很多都并没有一级代理资质，往往会在中标后使用转包的模式交由其他公司提供产品和服务，这个要看业主的要求，严格的业主为了避免纠纷，会要求出具不转包承诺书。</description>
+    </item>
+    <item>
+      <title>CFX生成WS客户端</title>
+      <link>https://shilaAtGit.github.io.git/works/cfx/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/cfx/</guid>
+      <description>记录一下如何根据CFX生成web servers的client端代码 WSDL介绍&#xA;WSDL 可描述网络服务（Web Services）&#xA;WSDL 指网络服务描述语言 (Web Services Description Language)。&#xA;WSDL 是一种使用 XML 编写的文档。这种文档可描述某个 Web service。它可规定服务的位置，以及此服务提供的操作（或方法）。&#xA;下载CFX&#xA;下载地址：http://www.apache.org/dyn/closer.cgi?path=/cxf/2.7.11/apache-cxf-2.7.11.zip 将CXF压缩包解压到本地目录&#xA;配置环境变量&#xA;要根据操作系统的不同来配置。&#xA;配置环境变量&#xA;在CLASSPATH %CXF_HOME%\lib 在PATH中添加 %CXF_HOME%\bin 验证环境变量&#xA;验证：命令行输入：&#xA;wsdl2java -v 结果显示：wsdl2java -Apache CXF 2.7.11说明配置成功&#xA;wsdl2java工具使用&#xA;使用命令行输入：&#xA;wsdl2java -frontend jaxws21 -p com.test.client -d D:\ -client -autoNameResolution http://192.168.0.118:8080/framework/ws/helloService?wsdl 说明:&#xA;-p 包名&#xA;-d 文件生成的本地目录&#xA;http://192.168.0.118:8080/framework/ws/helloService?wsdl 发布的服务访问路径&#xA;另外，记录： 以下的方法我没有用过，记录参考，万一用到&#xA;使用本地wsdl文件生成代码&#xA;使用命令行输入：wsdl2java -p com.test.client -d D: -verbose &amp;ldquo;D:\helloService.xml&amp;rdquo;&#xA;说明：-p 包名 -d生成文件路径 -verbose &amp;ldquo;wsdl文件路径&amp;rdquo;</description>
+    </item>
+  </channel>
+</rss>

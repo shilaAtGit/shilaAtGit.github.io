@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web servers on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/web-servers/</link>
+    <description>Recent content in web servers on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 01 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/web-servers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CFX生成WS客户端</title>
+      <link>https://shilaAtGit.github.io.git/works/cfx/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/cfx/</guid>
+      <description>记录一下如何根据CFX生成web servers的client端代码 WSDL介绍&#xA;WSDL 可描述网络服务（Web Services）&#xA;WSDL 指网络服务描述语言 (Web Services Description Language)。&#xA;WSDL 是一种使用 XML 编写的文档。这种文档可描述某个 Web service。它可规定服务的位置，以及此服务提供的操作（或方法）。&#xA;下载CFX&#xA;下载地址：http://www.apache.org/dyn/closer.cgi?path=/cxf/2.7.11/apache-cxf-2.7.11.zip 将CXF压缩包解压到本地目录&#xA;配置环境变量&#xA;要根据操作系统的不同来配置。&#xA;配置环境变量&#xA;在CLASSPATH %CXF_HOME%\lib 在PATH中添加 %CXF_HOME%\bin 验证环境变量&#xA;验证：命令行输入：&#xA;wsdl2java -v 结果显示：wsdl2java -Apache CXF 2.7.11说明配置成功&#xA;wsdl2java工具使用&#xA;使用命令行输入：&#xA;wsdl2java -frontend jaxws21 -p com.test.client -d D:\ -client -autoNameResolution http://192.168.0.118:8080/framework/ws/helloService?wsdl 说明:&#xA;-p 包名&#xA;-d 文件生成的本地目录&#xA;http://192.168.0.118:8080/framework/ws/helloService?wsdl 发布的服务访问路径&#xA;另外，记录： 以下的方法我没有用过，记录参考，万一用到&#xA;使用本地wsdl文件生成代码&#xA;使用命令行输入：wsdl2java -p com.test.client -d D: -verbose &amp;ldquo;D:\helloService.xml&amp;rdquo;&#xA;说明：-p 包名 -d生成文件路径 -verbose &amp;ldquo;wsdl文件路径&amp;rdquo;</description>
+    </item>
+  </channel>
+</rss>

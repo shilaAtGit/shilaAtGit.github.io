@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>操作系统 on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何设置github代理地址</title>
+      <link>https://shilaAtGit.github.io.git/sethosts/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/sethosts/</guid>
+      <description>作为国人在研发中一个痛点就是无法自由使用很多全球资源，一些公司提供相应的解决方案，但是一些公司因为性质问题不能提供，只能由程序员自行解决。&#xA;如何访问guihub就是其中一个。方法目前比较靠谱的就是如下，以本人mac系统为例进行阐述：&#xA;1、首先，即使使用代理，github也是不太稳定的，这个只能忍了。&#xA;2、可用的github代理经常会发生变化，所以及时更新很重要。&#xA;3、访问https://raw.hellogithub.com/hosts，用浏览器打开此地址即可下载文件，用本地文本工具打开，即可看到最新的github相关的代理地址。&#xA;4、更新本地的hosts文件，mac的文件位置在：/etc/hosts.&#xA;5、修改hosts文件需要管理员口令，有的工具不支持输入管理员口令进行修改，使用sublimeText工具可以编辑。&#xA;6、使hosts的修改生效：sudo killall -HUP mDNSResponder</description>
+    </item>
+  </channel>
+</rss>

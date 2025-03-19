@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bolgs on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/bolg/</link>
+    <description>Recent content in Bolgs on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/bolg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录一些常用的电脑小技巧</title>
+      <link>https://shilaAtGit.github.io.git/bolg/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/</guid>
+      <description>长图打印 如果是普通长图，可以用excel来打印，excel打印的时候选择取消，会自动在excel标线出打印的范围，根据需要拉伸图片，然后打印，就可以打印出目标的分页长图了。&#xA;更好的办法是使用photoshop，通过选择功能，框选住第一页打印的范围，CTRL+C+V，就会自动新建图层并只包涵复制的部分其余为透明；然后选择只显示当前的图层，然后打印，就会只打印当前图层的内容，在打印页面调整参数，就可以实现打印第一页。其他页类似。&#xA;当然，最简单的方式，是打开图片，直接用微信截图，按照A4的大小截图，直接打印图片。</description>
+    </item>
+    <item>
+      <title>食在上海</title>
+      <link>https://shilaAtGit.github.io.git/bolg/%E9%A3%9F%E5%9C%A8%E4%B8%8A%E6%B5%B7/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/%E9%A3%9F%E5%9C%A8%E4%B8%8A%E6%B5%B7/</guid>
+      <description>记录一下我在上海吃饭的经验，哪些好吃的菜系，从什么顺序一步一步吃遍上海美食代表。&#xA;美食这个东西，经常跟具体的饭店关联，可是饭店往往都短命，所以要从这里面取一个平衡。&#xA;唐镇篇 唐镇名字听起来古色古香，其实是个农村2015年后通了地铁发展一下的县城，也就是因为在上海所以时髦一点。&#xA;阳光天地：&#xA;阳光天地唐镇地铁商圈，因为是地铁上盖，唐镇的郊区身份决定了它不可能有丰富的生活配套，所以好的饭店基本都集中在商场，阳光天地最是典型。&#xA;阳光天地的鸿姐火锅是不错的，重庆麻辣火锅，比张江的好，都是连锁店竟然味道不同。此店的包子也非常好吃。&#xA;那时新疆：偏贵，口味没有什么特色。&#xA;金家：韩国烤肉，亲民系列，不贵，味道中规中矩，可以解馋去一下。&#xA;关东小磨：非常改良的东北菜，基本上吃不到东北味道了，当然并不是说他难吃，还是好吃的。&#xA;五条船：很奇怪的海鲜店，味道一般，环境一般，怕是开不久。&#xA;盘盘麻辣烫：很好吃，对于喜欢成都口味的很合适，但是并不便宜，定位看起来是大排档其实很贵。&#xA;食其家：这家格外好吃，值得推荐。&#xA;其他的，谷田稻香、达乐美披萨、小杨生煎、夸父炸串都是标准连锁店味道。&#xA;张江篇 张江主要是长泰广场。&#xA;龙阳路和花木 富荟广场，玺炖铁锅炖，很好吃，我非常推荐的东北大铁锅，价格虽然略贵，人均150+，但是确实香。&#xA;大唐小区北面美食街的老于家东北菜，价格很东北，人均50就能搞定，味道就普普通通了，适合追求性价比的去吃东北菜。&#xA;陆家嘴 九六广场，king大志烤肉，味道很赞，但是很贵的日式烧烤，人均可达500。啤酒也不错。</description>
+    </item>
+    <item>
+      <title>喝茶的经验</title>
+      <link>https://shilaAtGit.github.io.git/bolg/%E5%96%9D%E8%8C%B6/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/%E5%96%9D%E8%8C%B6/</guid>
+      <description>记录一下我喝茶的经验。&#xA;茶叶选择：&#xA;胃不好的喝红茶，胃没问题的喝绿茶。其他的茶叶都是这2种的细分，我没尝试过。&#xA;绿茶气味芳香，很符合国人对香气的追求；红茶口感浓重，适合喝不惯香气的人。&#xA;我选的红茶，目前是“英红九号”，一个广东的牌子，200块钱一斤，算是便宜的。&#xA;泡茶习惯：&#xA;选茶壶：要内面有瓷釉的，这样的茶壶不吸茶的香气，泡出来的更好喝；大茶壶适合家里一家人喝，单位可以选择150ml的小茶壶。&#xA;选茶杯：我用的是350ml的普通办公室茶杯。&#xA;选水：我还不懂，就用普通的开水。&#xA;泡法：我的习惯是先热水半壶，把茶叶洗一下，茶叶放入大概1/5壶的量；然后立刻满壶热水，盖上盖子开始泡；不用太计较时间，多泡一会省事，差不多2分钟倒到水杯里；把水杯加满热水，茶水浓度正好，香醇可口；第二泡直接就可以泡上喝了，红茶并不经泡，第二泡即使泡很久也不会太浓发苦，时间长了还有树叶味；第三泡就是没啥味道的茶水了，虽然颜色还是有的。</description>
+    </item>
+    <item>
+      <title>记录tesla的使用经费</title>
+      <link>https://shilaAtGit.github.io.git/bolg/teslalog/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/teslalog/</guid>
+      <description>记录一下我的特斯拉的经费使用。&#xA;保险费用：&#xA;第一年：6044.91。&#xA;第二年：4816.02-300&#xA;第三年：3719.2-350&#xA;第四年：3363.81-90-76&#xA;共计：17128&#xA;补胎费用：&#xA;疫情期间2个钉子，200.&#xA;23年一个钉子，130.&#xA;24年目前，2个钉子，200。&#xA;24年9月，1个钉子，80.&#xA;24年10月，2个钉子，160.&#xA;保养费用：&#xA;空调管支架：0&#xA;共振密封条：0&#xA;23年1月，内滤芯：425.38&#xA;23年6月，方向盘鼓包：0&#xA;23年8月，外滤芯1个：545.16&#xA;24年1月，外滤芯2个：301.3，靠，换错了呀&#xA;24年8月，更换充电线路，0元。内滤芯：505.13&#xA;配件费用：&#xA;mic：1199&#xA;网络费：&#xA;9.9每个月&#xA;充电费：&#xA;23年8月-24年7月，充电517.77，类推前面2年大概也是500一年，故共计1500元左右，因为非常偶然也会在第三方充电，算500，共计2000吧。&#xA;车子行驶大概5w公里目前。&#xA;pie title 花费比例 &amp;#34;保险&amp;#34; : 17128 &amp;#34;保养&amp;#34; : 1777 &amp;#34;轮胎&amp;#34; : 530 &amp;#34;充电&amp;#34; : 2000 &amp;#34;网络&amp;#34; : 260 &amp;#34;配件&amp;#34; : 1199 </description>
+    </item>
+    <item>
+      <title>学习theme-mainroad的记录</title>
+      <link>https://shilaAtGit.github.io.git/bolg/studytheme/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/bolg/studytheme/</guid>
+      <description>记录一下学习theme的过程，先学习的是自己使用的mainroad。&#xA;mainroad是hugo的众多theme中的一个，比较适合简单使用，写自己的blog。&#xA;首先，先贴一下hugo的主页：&#xA;hugo主页&#xA;从hugo主页的菜单themes主页进入，可以选择自己喜欢的theme，每个theme都有详细的自己的下载、使用教程。使用教程的主要内容为config和front matter。&#xA;其中，对于config的配置，新版本的hugo已经放到了hugo.toml中，不在放在config下，也可以自己新建config目录和config.toml文件存放，但是没啥必要。&#xA;theme主要的定制能力，都体现在front matter上。front matter的定义，是一个theme的样式。比如在我的所有md文档中，都要复制mainroad提供的frontmatter到文件头。&#xA;front matter的内容提供了定制，可以自己根据需求进行调整。比如页面包涵那些模块，模块的摆放位置等。&#xA;front matter的形式用&amp;quot;- - -&amp;ldquo;上下包涵，放在md文档的头部。</description>
+    </item>
+  </channel>
+</rss>

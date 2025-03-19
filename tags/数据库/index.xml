@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据库 on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <description>Recent content in 数据库 on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mysql的距离函数使用</title>
+      <link>https://shilaAtGit.github.io.git/works/mysql-location/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/mysql-location/</guid>
+      <description>记录一下mysql的point类型数据以及ST_Distance_sphere函数 GIS简介 在很多购物场景，需要根据商店的坐标，计算与当前客户的距离，这是一种基本服务，通常被称为LBS（Location Based Service）。而LBS的核心技术实现，叫做GIS（Geographic Information System）。&#xA;技术实现上，通常使用支持此类运算的数据库如mongoDB，针对特殊的业务需求还需要有特殊的技术架构。&#xA;但是，实际开发中，使用mysql的应用系统较多，切换数据库代价很大。在服务要求不高的场景下，可以使用mysql的GIS特性来实现。&#xA;POINT 数据类型 mysql 可以定义POINT数据类型存储坐标信息。在定义表字段的时候直接使用即可。&#xA;CREATE TABLE test_table( id INT PRIMARY KEY AUTO_INCREMENT, point_type_colum POINT ); 空间索引 针对POINT类型的字段，要建立空间索引SPATIAL INDEX以提高查询速度。&#xA;ALTER TABLE test_table ADD SPATIAL INDEX (point_type_colum); 查询 查询的时候要用到ST_Distance_sphere函数&#xA;SELECT id,ST_Distance_sphere(point_type_colum,POINT(1,1))AS distanceDouble FROM test_table ORDER BY distanceDouble ASC LIMIT 0, 5; 写在最后 永远不要忘了通过explain来检查sql是否使用上了索引&#xA;还有一句 还有一种纯数学的距离计算方法，叫做geohash。&#xA;通过纯纯的数学计算，将二维的坐标信息，转化为二进式数字并进行base编码。通过比较数字不同的位数，确定距离的远近。&#xA;距离的计算可以通过编写数据库存储过程来实现，这里会用到GEOMFROMTEXT内置函数。&#xA;具体可以参考：&#xA;Geohash原理&#xA;存储过程计算Geohash</description>
+    </item>
+    <item>
+      <title>mysql的join如何优化性能</title>
+      <link>https://shilaAtGit.github.io.git/works/mysql-join/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/mysql-join/</guid>
+      <description>记录一下mysql的join是如何工作的以及性能调优的基本原理 join简介 联表查询经常要用到join，join是编程简化的需求，但是对于数据库的操作来说，增加了很多的复杂度和性能消耗，需要谨慎使用。&#xA;inner join：根据关联关系on，只返回on上匹配的数据&#xA;left join：根据条件查询主表（即左表）的全部符合条件数据数据，然后根据on的关系，补充符合on的附表（即右表）的数据，返回。&#xA;right join：与left join相反。&#xA;join 基本流程 现在有t1和t2两张表，idx是两张表的连接字段，并且都进行了索引。 执行的操作如下： 第一步：从表t1 读出一行数据ROW&#xA;第二步：从数据行中取出字段idx 到表t2 中去查找&#xA;第三步：在t2 中筛选出满足条件的行，跟t1 读出的数据ROW组装，构成结果集的一行&#xA;重复步骤一、二、三步，直到t1 全部查完&#xA;第一步优化 这里有第一个优化点，在第一步中，从表 t1读出一行数据ROW ，在MYSQL5.6的时候，启用了BKA（Batched Key Access）算法，批量数据查询，由原先的每次读取一行数据变为查询出一批数据，去被驱动表进行匹配。&#xA;这种优化的必须要解决的问题就是一次查出的数据放在哪里，MYSQL单独开辟了一个内存，你一定听过，就是join_buffer 。这样就能够，缓存住批量的数据，减少t1的读取频率。原先的JOIN流程就变成了 第二步优化 众所周知，在上述流程中，一般索引检索到匹配的值时候，会再去主键索引找到具体的数据，这个过程被我们称为回表。如果回表的扫描过程中，是顺序的，那么依据磁盘的读写特性，将大大的提高效率，这也是第二个优化点Multi-Range Read（MRR）。&#xA;MRR在一般索引匹配到主键索引的时候，单独开辟了一个空间read_rnd_buffer 对主键索引先进行排序，使得主键索引查找顺序的时候，是尽可能的顺序查找。MRR的加入使得原先的JOIN流程变成了： MRR的read_rnd_buffer的大小是由参数read_rnd_buffer_size 控制的&#xA;MRR默认是关闭的，MYSQL优化器更加倾向于不使用MRR，因此set optimizer_switch=&amp;ldquo;mrr_cost_based=off&amp;rdquo; 开启MRR&#xA;BKA算法的主要性能优化是基于MRR的，因此set optimizer_switch=&amp;lsquo;mrr=on,mrr_cost_based=off,batched_key_access=on&amp;rsquo;; 是开启BKA的正确姿势&#xA;MRR的优化前提是BKA，也就是说有多主键的范围查询&#xA;写在最后 以上的理论分析，需要经过具体的测试验证才可以使用，比如缓存大小具体设置的数值、是否涉及到冷表等。 理论分析可以直接使用，但是重点是思路，这个思路要善于灵活运用，比如是否通过redis等高速存储变相实现理论</description>
+    </item>
+  </channel>
+</rss>

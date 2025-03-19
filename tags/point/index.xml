@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>point on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/point/</link>
+    <description>Recent content in point on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/point/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mysql的距离函数使用</title>
+      <link>https://shilaAtGit.github.io.git/works/mysql-location/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/works/mysql-location/</guid>
+      <description>记录一下mysql的point类型数据以及ST_Distance_sphere函数 GIS简介 在很多购物场景，需要根据商店的坐标，计算与当前客户的距离，这是一种基本服务，通常被称为LBS（Location Based Service）。而LBS的核心技术实现，叫做GIS（Geographic Information System）。&#xA;技术实现上，通常使用支持此类运算的数据库如mongoDB，针对特殊的业务需求还需要有特殊的技术架构。&#xA;但是，实际开发中，使用mysql的应用系统较多，切换数据库代价很大。在服务要求不高的场景下，可以使用mysql的GIS特性来实现。&#xA;POINT 数据类型 mysql 可以定义POINT数据类型存储坐标信息。在定义表字段的时候直接使用即可。&#xA;CREATE TABLE test_table( id INT PRIMARY KEY AUTO_INCREMENT, point_type_colum POINT ); 空间索引 针对POINT类型的字段，要建立空间索引SPATIAL INDEX以提高查询速度。&#xA;ALTER TABLE test_table ADD SPATIAL INDEX (point_type_colum); 查询 查询的时候要用到ST_Distance_sphere函数&#xA;SELECT id,ST_Distance_sphere(point_type_colum,POINT(1,1))AS distanceDouble FROM test_table ORDER BY distanceDouble ASC LIMIT 0, 5; 写在最后 永远不要忘了通过explain来检查sql是否使用上了索引&#xA;还有一句 还有一种纯数学的距离计算方法，叫做geohash。&#xA;通过纯纯的数学计算，将二维的坐标信息，转化为二进式数字并进行base编码。通过比较数字不同的位数，确定距离的远近。&#xA;距离的计算可以通过编写数据库存储过程来实现，这里会用到GEOMFROMTEXT内置函数。&#xA;具体可以参考：&#xA;Geohash原理&#xA;存储过程计算Geohash</description>
+    </item>
+  </channel>
+</rss>

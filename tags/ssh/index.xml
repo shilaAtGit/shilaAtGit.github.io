@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on 许 文 的 小 站</title>
+    <link>https://shilaAtGit.github.io.git/tags/ssh/</link>
+    <description>Recent content in SSH on 许 文 的 小 站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置本地的github的SSH</title>
+      <link>https://shilaAtGit.github.io.git/usegitbuildpages/gensshkey/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/usegitbuildpages/gensshkey/</guid>
+      <description>简单讲解一下如何生成本地的ssh key，并配置到github账户，以实现本地代码推送到远端。&#xA;不配置这一步，是无法通过命令行推送代码的。&#xA;配置本地git&#xA;配置本地的git环境，才能将本地代码提交到github，这里讲如何通过命令行进行提交的准备工作。&#xA;一、生成ssh key&#xA;git提交，需要与远程仓库通过ssh安全通道进行提交，所以要先生成本地的ssh key，并且配置到服务器，才可以实现提交。&#xA;1、生成本地ssh key。 这里“你的邮箱”，指的是你注册github时候使用的邮箱&#xA;ssh-keygen -t rsa -C &amp;ldquo;你的邮箱&amp;rdquo;&#xA;生成过程中，会提示输入密码等一系列操作，全部用回车即可。&#xA;2、执行 ssh -v git@github.com&#xA;3、执行 ssh-agent -s&#xA;4、执行 ssh-add ~/.ssh/id_rsa&#xA;这个时候出现的Identity added&amp;hellip;这里的路径就是证书文件路径&#xA;5、打开证书文件路径，找到id_rsa.pub文件，用文本阅读器打开，看到ssh-rsa开头的一段base64公钥，全文复制 。&#xA;二、配置ssh key&#xA;1、浏览器登录到你的github账号，点击右侧头像，选择settings&#xA;2、在settings中选择SSH and GPG keys&#xA;3、选择New SSH key&#xA;4、把刚才复制的公钥复制到key的文本框中，title可以随便起一个，完成后点击Add SSH key&#xA;至此，就完成了ssh key的配置，可以验证一下，在命令行输入： ssh -T git@github.com</description>
+    </item>
+  </channel>
+</rss>
