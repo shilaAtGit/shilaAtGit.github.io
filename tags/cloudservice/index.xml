@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudService on Jin&#39;s Nook</title>
+    <link>https://shilaAtGit.github.io.git/tags/cloudservice/</link>
+    <description>Recent content in CloudService on Jin&#39;s Nook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://shilaAtGit.github.io.git/tags/cloudservice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudService</title>
+      <link>https://shilaAtGit.github.io.git/metmessage/buyacloudservice/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://shilaAtGit.github.io.git/metmessage/buyacloudservice/</guid>
+      <description>以购买阿里云服务为例，详细说明如何拥有自己的互联网地址。&#xA;其他的云服务商的服务购买，请参考服务商的服务指引来完成。&#xA;专属服务器优点说明 性能好，MetMessage的服务只负责转发，逻辑极其简单。关闭安全功能后，即使最低收费的、甚至是免费的云服务器，也可以轻松支持超过200人同时在线聊天的服务。&#xA;如果你所在地区可以申请自己的独立ip，甚至可以部署在自己退役的古董电脑上。&#xA;公共服务器的apple attest安全防护功能可以关闭，这个功能是为了公开的服务地址进行安全保障的，但是你的专属服务器并不公开。&#xA;奖励机制可以关闭，自己的专属服务器不需要限制聊天，也不需要奖励登录。&#xA;开源的服务器代码，鼓励二创！&#xA;如何购买阿里云服务 以2006年阿里云服务为例&#xA;一、登录阿里云服务网站&#xA;URL:阿里云服务地址&#xA;扫码登录：使用支付宝APP扫码登录&#xA;二、选择产品，如下图&#xA;向下滑动，选择云服务器ECS&#xA;选择免费（本文以免费为例子）&#xA;点击立即试用&#xA;在创建你的ECS服务器的时候，可以选择几种免费模式，这里选择最低配置的免费模式，这样使用的时间最长。&#xA;网页会提示你等待创建结束，创建结束后立刻对ECS服务器进行管理，如下图：&#xA;三、为服务器增加java 因为server应用是一个java应用，所以必须按照java基础。&#xA;在管理页面找到右下角的“查看全部扩展”&#xA;在扩展中找到java，并点击“安装扩展程序”&#xA;选择jdk17，如果是你自己二创的server，选择你自己合适的jdk版本&#xA;检查java安装&#xA;在管理页面的右下角检查是否已经成功安装java&#xA;恭喜你，到现在，你已经完成了阿里云服务器的购买和搭建。</description>
+    </item>
+  </channel>
+</rss>
