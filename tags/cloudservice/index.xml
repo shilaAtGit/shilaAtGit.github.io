@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudService on Jin&#39;s Nook</title>
+    <link>https://shilaAtGit.github.io.git/tags/cloudservice/</link>
+    <description>Recent content in CloudService on Jin&#39;s Nook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shilaAtGit.github.io.git/tags/cloudservice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudService</title>
+      <link>https://shilaAtGit.github.io.git/metmessage/buyacloudservice/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shilaAtGit.github.io.git/metmessage/buyacloudservice/</guid>
+      <description>This guide uses Alibaba Cloud as an example to walk you through obtaining your own public internet address.
+For other cloud service providers, please refer to their respective documentation for purchasing and setup instructions.
+Benefits of a Dedicated Server Excellent Performance — MetMessage&amp;rsquo;s server is only responsible for forwarding messages, with extremely simple logic. With security features disabled, even the lowest-tier or even free cloud servers can easily support over 200 concurrent online users for chat services.</description>
+    </item>
+    
+  </channel>
+</rss>

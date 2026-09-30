@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Jin&#39;s Nook</title>
+    <link>https://shilaAtGit.github.io.git/tags/marketing/</link>
+    <description>Recent content in Marketing on Jin&#39;s Nook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shilaAtGit.github.io.git/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketing</title>
+      <link>https://shilaAtGit.github.io.git/metmessage/marketing/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shilaAtGit.github.io.git/metmessage/marketing/</guid>
+      <description>Because MetMessage&amp;rsquo;s core design philosophy is to keep both data and logic on the client app, the server is responsible for forwarding messages only.
+Setting up your own MetMessage server is very simple. In this post, I&amp;rsquo;ll show you how to quickly and easily deploy a dedicated server.
+PS: I hope to find time in the future to provide a one-click deployment service for everyone—stay tuned.
+Benefits of a Dedicated Server MetMessage Security Logic 1</description>
+    </item>
+    
+  </channel>
+</rss>

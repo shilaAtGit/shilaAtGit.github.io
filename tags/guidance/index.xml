@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guidance on Jin&#39;s Nook</title>
+    <link>https://shilaAtGit.github.io.git/tags/guidance/</link>
+    <description>Recent content in Guidance on Jin&#39;s Nook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://shilaAtGit.github.io.git/tags/guidance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guidance</title>
+      <link>https://shilaAtGit.github.io.git/metmessage/guidance/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://shilaAtGit.github.io.git/metmessage/guidance/</guid>
+      <description>User Guide for the App.
+Continuously being improved.
+Registration and Login Registration is entirely local—no information is sent to the server. I define who I am.
+Logging in simply notifies your friends that you are online. No other information is transmitted to the server.
+Note 1: You can register multiple times locally. Each registration creates a brand new identity. You can reduce the workload of re-registering by backing up and restoring your groups and contacts.</description>
+    </item>
+    
+  </channel>
+</rss>
